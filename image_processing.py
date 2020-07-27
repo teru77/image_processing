@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 img=cv2.imread('1.png') #画像を選択
-inv = cv2.bitwise_not(img)
+inv = cv2.bitwise_not(img)#ネガポジ変換
 
 # 閾値
 threshold_value=127
