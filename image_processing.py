@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread('1.png')
+img=cv2.imread('1.png') #画像を選択
 inv = cv2.bitwise_not(img)
 
 # 閾値
