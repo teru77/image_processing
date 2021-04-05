@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img=cv2.imread('1.png') #画像を選択
+img=cv2.imread('***.***') #画像を選択
 inv = cv2.bitwise_not(img)#ネガポジ変換
 
 # 閾値
@@ -20,6 +20,5 @@ threshold_img[gray >= threshold_value] = 255
 
 # 結果を出力
 cv2.imwrite('th.png', threshold_img)
- 
 cv2.imwrite('inv.jpg',inv)
 cv2.imwrite('invgray.jpg',invgray)
